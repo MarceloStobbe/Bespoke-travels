@@ -1,0 +1,144 @@
+/* 1. IMPORTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 2. BASE / GLOBAL */
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    background-color: #e8e6e4;
+    color: #1a2a3a;  
+}
+
+/* 3. LAYOUT (Navbar & Footer) */
+.navbar {
+    background-color: #28566a;
+    border-bottom: 2px solid #c19d59;    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-link, .navbar {
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s;
+    color: #ffff !important;
+}
+
+.nav-link:hover {
+    color: #c19d59 !important;
+}
+
+.custom-nav-list {
+    margin-top: 140px;   
+    margin-left: 0;    
+    display: flex;
+    gap: 25px;          
+}
+
+.navbar-toggler {
+    border-color: #d5d4d3 !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3%3Cpath stroke='rgba(193, 157, 89, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+.footer, .custom-footer {
+    background-color: #28566a !important;
+    border-bottom: 3px solid #c19d59 !important;
+    color: #ffff;    
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.custom-footer {
+    border-bottom: none;
+    border-top: 3px solid #c19d59;
+}
+
+/* 4. COMPONENTES ESPECÍFICOS */
+
+/* Header */
+.custom-header {
+    background-color: #d8c9ae !important; 
+    border: 1px solid #f2e5cc;
+}
+
+.custom-header .btn-light {
+    background-color: #faf8f6; 
+    color: #28566a; 
+    border: none;
+}
+
+.custom-header .btn-light:hover {
+    background-color: #c19d59 !important; 
+    border-color: #c19d59 !important;
+    color: #ffffff !important;
+    transition: all 0.3s ease;
+}
+
+/* Section & Cards de Destino */
+.custom-section {
+    background-color: #e7decd !important; 
+}
+
+.card-destiny {
+    background-color: #ebe2d2 !important; 
+    transition: transform 0.3s;
+    border: 1px solid #dbcfca !important; 
+}
+
+.card-destiny:hover {
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.btn-outline-primary {
+    color: #20536a;
+    border-color: #20536a;
+}
+
+.btn-outline-primary:hover {
+    background-color: #20536a;
+    color: #fff;
+}
+
+/* Section About & Carousel */
+#about {
+    background-color: #e0dedc !important; 
+    border: 1px solid #d0d0cf !important;
+}
+
+#about .card-title {
+    color: #28566a;
+}
+
+#carouselTravels {
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 0.025rem;
+    overflow: hidden; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.custom-carousel-img {
+    width: 100% !important;
+    height: 400px !important;      
+    object-fit: cover !important;  
+    object-position: center !important; 
+}
+
+/* 5. RESPONSIVIDADE (Media Queries) */
+@media (max-width: 991px) {
+    .custom-nav-list {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .custom-carousel-img {
+        height: 250px !important; 
+    }
+}
