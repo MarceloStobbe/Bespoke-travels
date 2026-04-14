@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
 </head>
 
 <body>
-
+    <header>
     <nav class="navbar navbar-expand-lg py-3">
         <div class="container">
             <a class="navbar-brand" href="index.html">
@@ -30,11 +31,10 @@
     </nav>
 
     <div class="container py-5">
-        
-         <header class="text-white text-center mb-5 py-5 rounded custom-header">
+        <header class="text-white text-center mb-5 py-5 rounded custom-header">
             <h1 class="display-4">Bespoke Travels</h1>
             <p class="lead">Experiences curated by Marcelo Stobbe</p>
-            <a href="#about" class="btn btn-light btn-lg">Discover more</a>
+            <a href="about.html" class="btn btn-light btn-lg">Discover more</a>
         </header>
         <div class="card mb-5" id="about">
             <div class="card-body text-center py-4">
@@ -44,30 +44,32 @@
                     My trips are carefully planned to offer unique and memorable experiences,
                     whether in vibrant cities, paradisiacal beaches, or majestic mountains.
                 </p>
-                
+
                 <div id="carouselTravels" class="carousel slide mt-4" data-bs-ride="carousel" data-bs-interval="10000">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselTravels" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#carouselTravels" data-bs-slide-to="0"
+                            class="active"></button>
                         <button type="button" data-bs-target="#carouselTravels" data-bs-slide-to="1"></button>
                         <button type="button" data-bs-target="#carouselTravels" data-bs-slide-to="2"></button>
                     </div>
-
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="img/botanicgarden.jpg" class="d-block w-100 custom-carousel-img" alt="Amsterdam">
+                            <img src="img/botanicgarden.jpg" class="d-block w-100 custom-carousel-img" alt="Botanic Garden - Crystal Palace">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/tirana.jpg" class="d-block w-100 custom-carousel-img" alt="Innsbruck">
+                            <img src="img/tirana.jpg" class="d-block w-100 custom-carousel-img" alt="Tirana - Mosque">
                         </div>
                         <div class="carousel-item">
-                            <img src="img/munich.jpg" class="d-block w-100 custom-carousel-img" alt="Wicklow">
+                            <img src="img/munich.jpg" class="d-block w-100 custom-carousel-img" alt="Munich Church">
                         </div>
                     </div>
 
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselTravels" data-bs-slide="prev">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselTravels"
+                        data-bs-slide="prev">
                         <span class="carousel-control-prev-icon"></span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselTravels" data-bs-slide="next">
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselTravels"
+                        data-bs-slide="next">
                         <span class="carousel-control-next-icon"></span>
                     </button>
                 </div>
@@ -104,10 +106,16 @@
     <footer class="text-white text-center py-4 custom-footer">
         <div class="container">
             <p class="mb-1">2026 Marcelo Stobbe | Bespoke Travels</p>
+            <p class="mb-2">
+                <a href="mailto:contact@bespoketravels.com" class="footer-email-link">
+                    contact@bespoketravels.com
+                </a>
+            </p>
             <small>&copy; All Rights Reserved</small>
         </div>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
