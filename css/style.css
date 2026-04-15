@@ -3,17 +3,18 @@
 body {
     font-family: "Roboto Condensed", sans-serif;
     background-color: #e8e6e4;
-    color: #1a2a3a;  
+    color: #1a2a3a;
 }
 
 .navbar {
     background-color: #28566a;
-    border-bottom: 2px solid #c19d59;    
+    border-bottom: 2px solid #c19d59;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-.nav-link, .navbar {
+.nav-link,
+.navbar {
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -26,10 +27,10 @@ body {
 }
 
 .custom-nav-list {
-    margin-top: 140px;   
-    margin-left: 0;    
+    margin-top: 140px;
+    margin-left: 0;
     display: flex;
-    gap: 25px;          
+    gap: 25px;
 }
 
 .navbar-toggler-icon {
@@ -37,10 +38,11 @@ body {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
 }
 
-.footer, .custom-footer {
+.footer,
+.custom-footer {
     background-color: #28566a !important;
     border-bottom: 3px solid #c19d59 !important;
-    color: #ffff;    
+    color: #ffff;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -51,35 +53,35 @@ body {
 }
 
 .custom-header {
-    background-color: #cdb280 !important; 
+    background-color: #cdb280 !important;
     border: 1px solid #f2e5cc;
 }
 
 .custom-header .btn-light {
-    background-color: #faf8f6; 
-    color: #28566a; 
+    background-color: #faf8f6;
+    color: #28566a;
     border: none;
 }
 
 .custom-header .btn-light:hover {
-    background-color: #c19d59 !important; 
+    background-color: #c19d59 !important;
     border-color: #c19d59 !important;
     color: #ffffff !important;
     transition: all 0.3s ease;
 }
 
 .custom-section {
-    background-color: #d8d3d2 !important; 
+    background-color: #d8d3d2 !important;
 }
 
 .card-destiny {
-    background-color: #e2dddc!important; 
+    background-color: #e2dddc !important;
     transition: transform 0.3s;
-    border: 1px solid #cadbcc !important; 
+    border: 1px solid #cadbcc !important;
 }
 
 .card-destiny:hover {
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
 .btn-outline-primary {
@@ -93,7 +95,7 @@ body {
 }
 
 #about {
-    background-color: #e0dedc !important; 
+    background-color: #e0dedc !important;
     border: 1px solid #d0d0cf !important;
 }
 
@@ -105,62 +107,61 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 0.025rem;
-    overflow: hidden; 
+    overflow: hidden;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .custom-carousel-img {
     width: 100% !important;
-    height: 400px !important;      
-    object-fit: cover !important;  
-    object-position: center !important; 
+    height: 400px !important;
+    object-fit: cover !important;
+    object-position: center !important;
 }
 
 .carousel-city .custom-carousel-img {
     width: 100% !important;
-    height: 600px !important;      
-    object-fit: cover !important;  
-    object-position: center !important;  
+    height: 600px !important;
+    object-fit: cover !important;
+    object-position: center !important;
 }
 
 .btn-custom-send {
-    background-color: #28566a !important; 
-    color: #fcfdfd !important;              
-    border: none !important;              
-    padding: 10px 30px !important;       
-    transition: all 0.3s ease;            
+    background-color: #28566a !important;
+    color: #fcfdfd !important;
+    border: none !important;
+    padding: 10px 30px !important;
+    transition: all 0.3s ease;
 }
 
 .btn-custom-send:hover {
-    background-color: #c19d59 !important; 
+    background-color: #c19d59 !important;
     color: #f8f9fa !important;
 }
 
 form.border.rounded {
-    background-color: #e0dedc !important; 
-    
+    background-color: #e0dedc !important;
 }
 
 .footer-email-link {
     color: #c19d59;
-    text-decoration: none; 
+    text-decoration: none;
     font-weight: 500;
     transition: all 0.3s ease;
-    border-bottom: 1px solid transparent; 
+    border-bottom: 1px solid transparent;
 }
 
 .footer-email-link:hover {
     color: #ffffff;
-    border-bottom: 1px solid #c19d59; 
+    border-bottom: 1px solid #c19d59;
     padding-bottom: 2px;
 }
 
 .btn-outline-external-bespoke {
-    color: #20536a !important;          
-    border: 1px solid #20536a !important; 
+    color: #20536a !important;
+    border: 1px solid #20536a !important;
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
-    font-size: 0.875rem;                
+    font-size: 0.875rem;
     padding: 10px 30px;
     transition: all 0.3s ease;
     background-color: transparent;
@@ -168,23 +169,34 @@ form.border.rounded {
 }
 
 .btn-outline-external-bespoke:hover {
-    background-color: #c19d59 !important; /* O amarelo/dourado do seu tema */
-    border-color: #c19d59 !important;
-    color: #ffffff !important;           /* Texto branco para contraste no amarelo */
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    background-color: #c19d59 !important;
+    border-color: #6f5525 !important;
+    color: #ffffff !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-.form-control:focus {
-    border-color: #8ebacc !important; 
-    outline: 0  !important;
+.card-title {
+    color: #28566a !important;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    font-size: 2rem !important;
 }
 
-.form-control:hover {
-    border-color: #d9dbcc !important;
+.form-control:focus-visible {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.btn-custom-send:focus-visible,
+.btn-custom-send:active {
+    outline: none !important;
+    box-shadow: none !important;
+    border-color: #a58445 !important;
 }
 
 
-@media (max-width: 768px){
+
+
+@media (max-width: 768px) {
     .carousel-city .custom-carousel-img {
         height: 350px !important;
     }
@@ -200,6 +212,6 @@ form.border.rounded {
 
 @media (max-width: 768px) {
     .custom-carousel-img {
-        height: 250px !important; 
+        height: 250px !important;
     }
 }
