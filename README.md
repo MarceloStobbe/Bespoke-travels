@@ -1,30 +1,30 @@
-# Bespoke Travels - Marcelo Stobbe
+# Marcelo Stobbe - Bespoke Travels
 
-This is a personal travel website created to showcase curated travel experiences. It features a professional layout to explore different types of destinations.
+This is my personal travel website. It shows different trips and travel ideas for cities, beaches, and mountains.
 
-## ✨ Features
-* **Modern Design**: Clean and elegant visual style.
-* **Responsive**: Fully optimized for mobile and desktop screens.
-* **Navigation**: Easy access to different travel categories.
+## ✨ About the Site
+* **Looks Good**: Simple and clean style.
+* **Mobile Friendly**: It works on phones, tablets, and computers.
+* **Easy to Use**: Simple buttons to find each page.
 
-## 🛠️ Built With
-* **HTML5**
-* **CSS3** (Custom styles)
-* **Bootstrap 5** (Layout and components)
+## 🛠️ Tools Used
+* **HTML** (The structure)
+* **CSS** (The colors and style)
+* **Bootstrap** (The layout)
 
-## 📂 Project Structure
-* `index.html`: The main homepage.
-* `about.html`: Information about Marcelo Stobbe.
-* `Contact.html`: Contact form page.
-* `City.html`: Destinations for urban exploration.
-* `Sea.html`: Destinations for crystal clear waters.
-* `Mountain.html`: Destinations for winter shelters.
-* `/css`: Custom stylesheets.
-* `/img`: Travel photos and logos.
+## 📂 Site Pages
+* `index.html`: The home page.
+* `about.html`: About me.
+* `Contact.html`: How to send a message.
+* `City.html`: City trips.
+* `Sea.html`: Beach trips.
+* `Mountain.html`: Mountain trips.
+* `/css`: Style files.
+* `/img`: Photos and logo.
 
-## 🚀 How to Run
-1. Download or clone this repository.
-2. Open the `index.html` file in any web browser.
+## 🚀 How to See It
+1. Download all the files.
+2. Open the `index.html` file in your browser (like Chrome or Safari).
 
 ---
 © 2026 Marcelo Stobbe | Bespoke Travels
