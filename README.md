@@ -16,15 +16,18 @@ This is a personal travel website. It shows different trips and travel ideas for
 * `index.html`: The home page.
 * `about.html`: Information about Bespoke Travels.
 * `Contact.html`: Contact form page.
-* `City.html`: City trips.
-* `Sea.html`: Beach trips.
-* `Mountain.html`: Mountain trips.
+* `City.html`: City trip.
+* `Sea.html`: Beach trip.
+* `Mountain.html`: Mountain trip.
 * `/css`: Custom stylesheets.
-* `/img`: Travel photos and logos.
+* `/img`: Travel photos and logo.
 
 ## 🚀 How to Run
 1. Download or clone this repository.
 2. Open the `index.html` file in your browser (like Chrome or Safari).
+
+## 🔗 Live Demo
+[View the website live on GitHub Pages](https://marcelostobbe.github.io/Bespoke-travels/)
 
 ---
 © 2026 Marcelo Stobbe | Bespoke Travels
